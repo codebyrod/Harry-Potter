@@ -6,12 +6,21 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-background-color: #002244;
-height: 8vw;
+background-color: #3C3A8C;
+height: 20vw;
+
 `
-export const Title = styled.h1 `
-color: #A4DDED;
-margin: 1rem;
+
+export const BoxImg = styled.div `
+display: flex;
+justify-content: center;
+
+`
+
+export const Img = styled.img `
+margin: 3% 0 3% ;
+width: 30vw;
+
 `
 
 export const ListItem = styled.ul `
@@ -20,14 +29,14 @@ display: flex;
 justify-content: space-evenly;
 width: 70vw;
 font-size: 1.2rem;
-color: #A4DDED;
+color: #D9AD77;
 
 `
 
 export const Item = styled(Link) `
-color: #A4DDED;
+color: #D9AD77;
 `
 
 export const ItemX = styled.p `
-color: #A4DDED;
+color: #D9AD77;
 `

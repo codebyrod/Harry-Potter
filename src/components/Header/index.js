@@ -1,12 +1,15 @@
 import React from "react";
 import * as S from "./style"
 import { Link } from "gatsby"
+import Logo from "../../images/logo.png"
 
 export function Header(){
     return(
         <S.Component>
             <Link to="/">
-            <S.Title>O Indesejável nº 1</S.Title>
+            <S.BoxImg>
+                <S.Img src={Logo} alt="logo Harry Potter"/>
+            </S.BoxImg>
             </Link>
             <nav>
                 <S.ListItem>

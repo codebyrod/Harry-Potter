@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div `
-background-color: #002244;
+background-color: #3C3A8C;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -36,13 +36,13 @@ margin: 0.5rem;
 font-size: 1.2rem;
 font-weight: 900;
 text-align: center;
-color: #A4DDED;
+color: #D9AD77;
 `
 export const BoxP = styled.div `
 height: 8vw;
 display: flex;
 align-items: center;
-color: #A4DDED;
+color: #D9AD77;
 font-weight: 900;
 opacity: 0.3;
 `
