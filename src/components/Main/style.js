@@ -3,6 +3,7 @@ import styled from "styled-components"
 
 export const Container = styled.div `
 background-color: #564D8C;
+
 `
 
 export const Box = styled.div `
@@ -46,7 +47,7 @@ font-size: 1.5vw;
 export const BoxMoldura = styled.img ` 
  width: 18vw;
  position: absolute;
- z-index: 1;
+ z-index: 2;
 `
 
 export const BoxImg = styled.div `

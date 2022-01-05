@@ -65,7 +65,7 @@ export function Main(){
         <S.Container>
             <S.Box>
                 {list.map((item, index) => (
-                    <S.BoxMap to="/personagens" onClick={() => handClick(item) } key="index">
+                    <S.BoxMap key={index} to="/personagens" onClick={() => handClick(item) } >
                         <S.BoxContent>
                         <S.BoxImg>
                             <S.BoxMoldura src={Moldura} />

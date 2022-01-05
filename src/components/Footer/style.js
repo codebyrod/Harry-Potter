@@ -37,6 +37,7 @@ font-size: 1.2rem;
 font-weight: 900;
 text-align: center;
 color: #D9AD77;
+
 `
 export const BoxP = styled.div `
 height: 8vw;
