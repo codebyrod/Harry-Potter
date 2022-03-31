@@ -1,6 +1,5 @@
 import { Link } from "gatsby"
 import styled from "styled-components"
-import ImageHeader from "../../images/imgheader.gif"
 
 export const Component = styled.div `
 height: 41vw;

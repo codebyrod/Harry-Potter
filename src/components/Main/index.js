@@ -28,7 +28,7 @@ export function Main(){
     }
     
     const Alvo = {
-        actor: "Não sei",
+        actor: "Fulano de tal",
         alive: true,
         ancestry: "",
         dateOfBirth: "",
@@ -54,7 +54,7 @@ export function Main(){
         })
 // método do ES5, método mais é await async
         console.log(api.get())
-    },[])
+    },[Alvo, Rabicho]);
 
     const handClick = (item) => {
         localStorage.setItem("keyteste", JSON.stringify(item) )

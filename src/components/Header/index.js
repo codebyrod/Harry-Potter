@@ -40,7 +40,6 @@ export function Header(){
             </S.ListItem>
             </S.MenuBar>
             <S.BoxImgHeader>
-                <img />
             </S.BoxImgHeader>
         </S.Component>
         
